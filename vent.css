@@ -1,0 +1,129 @@
+header {
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cornsilk;
+  background-image: url(images/bkg_header_black.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left
+  ;
+}
+
+nav {
+  background-color: blanchedalmond;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 75%;
+
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: brown;
+}
+
+nav a:hover {
+  background-color: burlywood;
+  border-radius: 2rem;
+  color:bisque
+}
+
+body {
+  background-color:darksalmon;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 5rem;
+  box-shadow: 5px 5px 5px black;
+}
+
+header h1 {
+  font-size: 150%;
+  margin-left: 10%;
+  color: brown;
+}
+
+main {
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 125%;
+  line-height: 1.4;
+  
+}
+main h2 {
+  font-size: 80%;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  background-image: url(images/bkg_footer.png);
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-right: 1rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem
+}
+
+.visit {
+  font-size: 90%;
+  background-color: bisque;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-image: url(images/bkg_column.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 95%;
+}
+
+.dummy-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.dummy-grid img{
+  border: 10px solid white;
+  box-shadow: 1px 1px 1px black;
+}
+
+.dummy-grid h3{
+  font-size: 115%;
+  color: rgb(53, 15, 15);
+  border-bottom: 1px;
+}
+
+.dummy-grid li{
+  margin: 0 0 1rem 1rem;
+}
+
+.pic-right {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  border: 10px solid white;
+  box-shadow: 1px 1px 1px black;
+}
